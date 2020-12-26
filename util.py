@@ -44,3 +44,4 @@ def npmat2euler(mats, seq='zyx'):
         r = Rotation.from_dcm(mats[i])
         eulers.append(r.as_euler(seq, degrees=True))
     return np.asarray(eulers, dtype='float32')
+    
