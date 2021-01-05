@@ -1,0 +1,8 @@
+.idea/
+*~
+/CMakeLists.txt
+.vscode/
+__pycache__
+
+/checkpoints/
+
